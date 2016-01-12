@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "xkcd 1625",
+  "version": "0.1",
+  "description": "Implements xkcd #1625",
+  "content_scripts":
+  [
+    {
+      "matches": ["*://*/*"],
+      "js": ["contentscript.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
